@@ -1,0 +1,33 @@
+[ec2-user@ip-172-31-33-20 ~]$ nano myfirstbashscript.sh
+[ec2-user@ip-172-31-33-20 ~]$ cd /opt/181223_evening/Sofiia
+[ec2-user@ip-172-31-33-20 Sofiia]$ nano myfirstbashscript.sh
+[ec2-user@ip-172-31-33-20 Sofiia]$ ./myfirstbashscript.sh
+-bash: ./myfirstbashscript.sh: Permission denied
+[ec2-user@ip-172-31-33-20 Sofiia]$ chmod 744 myfirstbashscript.sh
+[ec2-user@ip-172-31-33-20 Sofiia]$ ./myfirstbashscript.sh
+Sun Feb 11 16:51:05 UTC 2024
+Hello Sofiia!
+[ec2-user@ip-172-31-33-20 Sofiia]$ nano myfirstbashscript.sh
+[ec2-user@ip-172-31-33-20 Sofiia]$ ./myfirstbashscript.sh
+Sun Feb 11 16:52:01 UTC 2024
+Hello Sofiia!
+/opt/181223_evening/Sofiia
+[ec2-user@ip-172-31-33-20 Sofiia]$ nano myfirstbashscript.sh
+[ec2-user@ip-172-31-33-20 Sofiia]$ ./myfirstbashscript.sh
+Sun Feb 11 16:58:49 UTC 2024
+Hello Sofiia!
+/opt/181223_evening/Sofiia
+      4      16     111
+[ec2-user@ip-172-31-33-20 Sofiia]$ nano myfirstbashscript.sh
+[ec2-user@ip-172-31-33-20 Sofiia]$ ./myfirstbashscript.sh
+Sun Feb 11 16:59:47 UTC 2024
+Hello Sofiia!
+/opt/181223_evening/Sofiia
+5
+[ec2-user@ip-172-31-33-20 Sofiia]$ scp ec2-user@linux.telran-edu.de:/opt/181223_evening/Sofiia/myfirstbashscript.sh .
+myfirstbashscript.sh                                                                                                                                          100%   85    62.3KB/s   00:00
+[ec2-user@ip-172-31-33-20 Sofiia]$ ./myfirstbashscript.sh
+Sun Feb 11 17:05:31 UTC 2024
+Hello Sofiia!
+/opt/181223_evening/Sofiia
+5
